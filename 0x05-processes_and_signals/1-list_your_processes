@@ -1,2 +1,4 @@
-#!/bin/bash
-ps -u
+#!/usr/bin/env bash
+# list all the running processes
+
+ps -auxf
