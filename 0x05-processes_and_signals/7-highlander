@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#displays to infinty and beyond and sleeps for 2 secons
 
 trap "echo I am invincible!!!" SIGTERM
 while true; do
