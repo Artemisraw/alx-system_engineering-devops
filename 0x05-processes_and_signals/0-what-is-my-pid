@@ -1,2 +1,4 @@
-#!/usr/bin/env bash 
-echo $$
+#!/usr/bin/env bash
+# my pid
+sleep 6 &
+echo "$!"
