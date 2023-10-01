@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# This scriot is displaying "Best School" 10 times usind while loop
+
+i=1
+
+while [ $i -le 10 ]; do
+	echo "Best School"
+	((i++))
+done
